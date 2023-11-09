@@ -32,8 +32,13 @@ PEMS03、PEMS04、PEMS07、PEMS08、PEMS-BAY、METR-LA
 
 ```
 
-## Run
+## Start training
 ```shell
 cd src
 python traffic_prediction.py
+```
+## Plot traffic flow graph
+```shell
+cd tools
+python vis.py
 ```
